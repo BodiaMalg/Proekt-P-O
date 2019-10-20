@@ -1,0 +1,164 @@
+\hypertarget{class_snake_1_1_form1}{}\doxysection{Snake.\+Form1 Class Reference}
+\label{class_snake_1_1_form1}\index{Snake.Form1@{Snake.Form1}}
+Inheritance diagram for Snake.\+Form1\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_snake_1_1_form1}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1_form1_acd42496f1e3c3af89b9ebeda1d12b1ce}{Form1}} ()
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_ae72297a3aab9df371116a45fb4bce0da}\label{class_snake_1_1_form1_ae72297a3aab9df371116a45fb4bce0da}} 
+void {\bfseries Move\+Player} ()
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a4f8d7504a94c2c0530032ed900203a2b}\label{class_snake_1_1_form1_a4f8d7504a94c2c0530032ed900203a2b}} 
+string {\bfseries Die} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_af0d546bc54366862d500c8bb121c29ee}\label{class_snake_1_1_form1_af0d546bc54366862d500c8bb121c29ee}} 
+List$<$ \mbox{\hyperlink{class_snake_1_1_circle}{Circle}} $>$ {\bfseries Snake} = new List$<$\mbox{\hyperlink{class_snake_1_1_circle}{Circle}}$>$()
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_ad255efaf6b44557a388949452fbcd4d7}\label{class_snake_1_1_form1_ad255efaf6b44557a388949452fbcd4d7}} 
+\mbox{\hyperlink{class_snake_1_1_circle}{Circle}} {\bfseries food} = new \mbox{\hyperlink{class_snake_1_1_circle}{Circle}}()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_snake_1_1_form1_a695120baebfaaec2d286d6b1bb93ec9c}{Start\+Game}} ()
+\item 
+string \mbox{\hyperlink{class_snake_1_1_form1_a7599c55c846c1cc2340f3bc717e03ca0}{Generate\+Food}} ()
+\begin{DoxyCompactList}\small\item\em Umieść przypadkowy food obiekt \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_form1_add92fb8b9fe7179aebc973f35b5d13c9}{Update\+Screen}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_snake_1_1_form1_a77f2701f98b11a658d0a805e26d94f38}{pb\+Canvas\+\_\+\+Paint}} (object sender, Paint\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a836e26930797477d7ca0616d91a29549}\label{class_snake_1_1_form1_a836e26930797477d7ca0616d91a29549}} 
+void {\bfseries Form1\+\_\+\+Key\+Down} (object sender, Key\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a8cdce6dc95a004155b384e559e4eb870}\label{class_snake_1_1_form1_a8cdce6dc95a004155b384e559e4eb870}} 
+void {\bfseries Form1\+\_\+\+Key\+Up} (object sender, Key\+Event\+Args e)
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a3de3f54e8cdeb0183931d2d52cb44715}\label{class_snake_1_1_form1_a3de3f54e8cdeb0183931d2d52cb44715}} 
+void {\bfseries Eat} ()
+\item 
+protected override void \mbox{\hyperlink{class_snake_1_1_form1_a8756880ed91ba05042d4df7942315d78}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\item 
+private void \mbox{\hyperlink{class_snake_1_1_form1_aadc94290d206122d0bc83c6dffd6c7ae}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+private System Component\+Model I\+Container \mbox{\hyperlink{class_snake_1_1_form1_a524675cfec4d67e0f54d9d9bf98d7679}{components}} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a223ad007942d63dd48ef5d9ae22f49dd}\label{class_snake_1_1_form1_a223ad007942d63dd48ef5d9ae22f49dd}} 
+private System Windows Forms Picture\+Box {\bfseries pb\+Canvas}
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a845e06bac8d3bb32fb09231c0a0aa6e0}\label{class_snake_1_1_form1_a845e06bac8d3bb32fb09231c0a0aa6e0}} 
+private System Windows Forms Label {\bfseries label1}
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_aaadf4f385f7f806bfe9dd02313b3f390}\label{class_snake_1_1_form1_aaadf4f385f7f806bfe9dd02313b3f390}} 
+private System Windows Forms Label {\bfseries lbl\+Score}
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_adeedab9cf4ccd533150952016bbf334c}\label{class_snake_1_1_form1_adeedab9cf4ccd533150952016bbf334c}} 
+private System Windows Forms Timer {\bfseries game\+Timer}
+\item 
+\mbox{\Hypertarget{class_snake_1_1_form1_a36447e0c56a7e10b7b7f0b84ddae8506}\label{class_snake_1_1_form1_a36447e0c56a7e10b7b7f0b84ddae8506}} 
+private System Windows Forms Label {\bfseries lbl\+Game\+Over}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1_form1_acd42496f1e3c3af89b9ebeda1d12b1ce}\label{class_snake_1_1_form1_acd42496f1e3c3af89b9ebeda1d12b1ce}} 
+\index{Snake.Form1@{Snake.Form1}!Form1@{Form1}}
+\index{Form1@{Form1}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{Form1()}{Form1()}}
+{\footnotesize\ttfamily Snake.\+Form1.\+Form1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Ustaw domyślne ustawienia 
+
+Ustaw szybkość gry i uruchomić timer 
+
+Rozpocznij nową grę 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1_form1_a8756880ed91ba05042d4df7942315d78}\label{class_snake_1_1_form1_a8756880ed91ba05042d4df7942315d78}} 
+\index{Snake.Form1@{Snake.Form1}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily protected override void Snake.\+Form1.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_snake_1_1_form1_a7599c55c846c1cc2340f3bc717e03ca0}\label{class_snake_1_1_form1_a7599c55c846c1cc2340f3bc717e03ca0}} 
+\index{Snake.Form1@{Snake.Form1}!GenerateFood@{GenerateFood}}
+\index{GenerateFood@{GenerateFood}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{GenerateFood()}{GenerateFood()}}
+{\footnotesize\ttfamily string Snake.\+Form1.\+Generate\+Food (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Umieść przypadkowy food obiekt 
+
+\mbox{\Hypertarget{class_snake_1_1_form1_aadc94290d206122d0bc83c6dffd6c7ae}\label{class_snake_1_1_form1_aadc94290d206122d0bc83c6dffd6c7ae}} 
+\index{Snake.Form1@{Snake.Form1}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily private void Snake.\+Form1.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+\mbox{\Hypertarget{class_snake_1_1_form1_a77f2701f98b11a658d0a805e26d94f38}\label{class_snake_1_1_form1_a77f2701f98b11a658d0a805e26d94f38}} 
+\index{Snake.Form1@{Snake.Form1}!pbCanvas\_Paint@{pbCanvas\_Paint}}
+\index{pbCanvas\_Paint@{pbCanvas\_Paint}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{pbCanvas\_Paint()}{pbCanvas\_Paint()}}
+{\footnotesize\ttfamily void Snake.\+Form1.\+pb\+Canvas\+\_\+\+Paint (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Paint\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Ustawić kolor węża, narysuj węża \mbox{\Hypertarget{class_snake_1_1_form1_a695120baebfaaec2d286d6b1bb93ec9c}\label{class_snake_1_1_form1_a695120baebfaaec2d286d6b1bb93ec9c}} 
+\index{Snake.Form1@{Snake.Form1}!StartGame@{StartGame}}
+\index{StartGame@{StartGame}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{StartGame()}{StartGame()}}
+{\footnotesize\ttfamily void Snake.\+Form1.\+Start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Ustaw domyślne ustawienia 
+
+Utworzyć nowy obiekt gracza \mbox{\Hypertarget{class_snake_1_1_form1_add92fb8b9fe7179aebc973f35b5d13c9}\label{class_snake_1_1_form1_add92fb8b9fe7179aebc973f35b5d13c9}} 
+\index{Snake.Form1@{Snake.Form1}!UpdateScreen@{UpdateScreen}}
+\index{UpdateScreen@{UpdateScreen}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{UpdateScreen()}{UpdateScreen()}}
+{\footnotesize\ttfamily void Snake.\+Form1.\+Update\+Screen (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Sprawdzanie Game over 
+
+Sprawdzanie czy Enter wciśnięty 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake_1_1_form1_a524675cfec4d67e0f54d9d9bf98d7679}\label{class_snake_1_1_form1_a524675cfec4d67e0f54d9d9bf98d7679}} 
+\index{Snake.Form1@{Snake.Form1}!components@{components}}
+\index{components@{components}!Snake.Form1@{Snake.Form1}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily private System Component\+Model I\+Container Snake.\+Form1.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+H\+:/\+W\+Si\+Z/\+Proekt P O/\+Proect/\+Snake/Form1.\+cs\item 
+H\+:/\+W\+Si\+Z/\+Proekt P O/\+Proect/\+Snake/Form1.\+Designer.\+cs\end{DoxyCompactItemize}
